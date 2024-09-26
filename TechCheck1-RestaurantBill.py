@@ -17,7 +17,7 @@ def main():
     #Welcome User to the program
     print("Hello, welcome to the Bill Total calculator. We will calculate the total price with the tax and tip.")
     #Prompt user to enter th eprice
-    billPrice = float(input("\nPlease enter the price of the original bill: "))
+    billPrice = float(input("\nPlease enter the price of the original bill: $"))
 
     #Do math to calculate the tax and tip
     billTax = billPrice * 0.15
@@ -32,8 +32,6 @@ def main():
 
     #display total
     print("Your total is: ${0:,.2f}".format(totalPrice))
-
-
 
     # YOUR CODE ENDS HERE
 
